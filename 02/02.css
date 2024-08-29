@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    width: 80%; /* 가로 */
+    margin-left: 10%; /* 세로 */
+    border-radius: 20px;
+}
+
+header, main {
+    background-color: lavender;
+}
+
+footer {
+    background-color: palegreen;
+    color: purple;
+}
+
+header, header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* nav > ul 이랑 같음 자식 다 검사  */
+/* header ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+ul {
+    list-style: none; /* 점 없애기 */
+}
+
+.menuli {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 12px;
+    height: 20px;
+    display: flex;
+    background-color: rgb(243, 215, 243);
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    border-radius: 15px;
+}
+
+.menuli:hover {
+    background-color: violet;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue
+}
+
+article {
+    padding: 30px;
+    margin: 30px;
+}
+
+
+/* 이부분 정확하게 */
+h1, article > p { 
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+section {
+    margin: 20px 20px;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.secDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.secDiv > div {
+    width: 20%;
+}
+
+.secDiv img {
+    width: 50%;
+    border-radius: 30%;
+}
+
+.secDiv > p {
+    width: 90%;
+    font-size:large;
+    color: salmon;
+    font-weight: bold;
+}
+
+footer li {
+    border: 10x dotted white;
+    text-align: center;
+}
+
+@media screen and (max-width : 1024px) {
+    header, main ,footer {
+        width: 100%;
+    margin-left: 0px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    header, header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    header {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    header lli {
+        width: 60%;
+        margin-bottom: 5px;
+    }
+}
