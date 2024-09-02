@@ -1,0 +1,14 @@
+section > div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    margin: 20px 230px;
+    padding: 50px;
+    
+    text-align: center;
+
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
