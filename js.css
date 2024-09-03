@@ -49,6 +49,8 @@ button {
     background-color: rgb(5, 204, 204);
     color: white;
     border: none;
+    width: 90px;
+    
 }
 
 button:hover {

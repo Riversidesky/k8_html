@@ -1,14 +1,28 @@
-section > div {
+.dice {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
 }
 
-footer {
-    margin: 20px 230px;
-    padding: 50px;
+/* .dice > div {
+    margin: 20px;
+} */
+
+section > div > div {
+    margin: 10px;
+}
+
+
+
+.result {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
     
     text-align: center;
 
     box-sizing: border-box;
     border: 1px solid gray;
-}
+} 

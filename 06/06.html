@@ -11,7 +11,7 @@
         alert('안녕하세요');
     </script> -->
     <!-- 외부 스크립트 -->
-     <script src='./05.js'></script>
+     <script src='./06.js'></script>
 </head>
 <body>
     <header>
@@ -21,10 +21,17 @@
         </div>
     </header>
     <main>
-        <section>
-            <div id="msg"><img src='../img/1.png'></div>
-            <div id="msg"><img src='../img/1.png'></div>
+        <section class="dice">
+            <div>
+                <span>Computer</span>
+                <div><img src='../img/1.png'></div>
+            </div>
+            <div>
+                <span>User</span>
+                <div><img src='../img/1.png'></div>
+            </div>
         </section>
+        
         <section>
             <button id="bt1">1 선택</button>
             <button id="bt2">2 선택</button>
@@ -33,9 +40,11 @@
             <button id="bt5">5 선택</button>
             <button id="bt6">6 선택</button>
         </section>
+        
+        <section class="result">
+            
+        </section>
     </main>
 </body>
-<footer>
-    <h1>틀림</h1>
-</footer>
+
 </html>
