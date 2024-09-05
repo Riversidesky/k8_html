@@ -8,19 +8,15 @@ document.addEventListener("DOMContentLoaded", ()=>{
     console.log(imgsrc)
 
     bt.addEventListener('click', ()=>{
-        // if (number.value == rd) {
-        //     imgsrc[1].setAttribute('src', `../img/good.png`);
-        //     number.value = ''
-        // }
-        if (number.value < rd) {
-            imgsrc[1].setAttribute('src', `../img/up.png`);
-        }
-        if (number.value > rd) {
-            imgsrc[1].setAttribute('src', `../img/down.png`);
-        }
         if (number.value == rd) {
             imgsrc[1].setAttribute('src', `../img/good.png`);
             number.value = ''
+        }
+        else if (number.value < rd) {
+            imgsrc[1].setAttribute('src', `../img/up.png`);
+        }
+        else if (number.value > rd) {
+            imgsrc[1].setAttribute('src', `../img/down.png`);
         }
     })
 })
