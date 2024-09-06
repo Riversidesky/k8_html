@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
     let s1 = txt1.value.replaceAll(' ', '') // 공백 ' '을 '' 전부 붙여버림
     let s2 = ''
 
+    let s3 = null
+    console.log(s3)
+
     // 반복문
     // for(let i = s1.length -1; i >=0; i--) {
     //     s2 = s2 + s1[i];
