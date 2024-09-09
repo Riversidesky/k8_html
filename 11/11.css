@@ -1,0 +1,40 @@
+main {
+    background-color: rgb(199, 187, 189);
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    width: 15%;
+    margin: 0px 10px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button:hover {
+    background-color: rgb(106, 125, 125);
+}
+
+
+.sec, .sec1, .sec2 {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
