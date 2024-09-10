@@ -1,0 +1,59 @@
+.boxofficeMain {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.sec {
+    width: 80%;
+    height: 20%;
+    
+}
+
+.divDt {
+    display: flex;
+    height: 100%;
+    background-color: rgb(102, 200, 249);
+    border: 2px dotted gray;
+    justify-content: center;
+    
+    
+}
+
+input[type=date] {
+    width: 40%;
+    height: 30px;
+    margin: 30px;
+    
+}
+
+.rank {
+    width: 20px;
+    height: 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    color: rgb(11, 79, 138);
+    margin-left: 10px;
+    background-color: #c3daeb;
+    border-radius: 100%;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    justify-content: start;
+    align-items: center;
+}
+
+li:hover {
+    background-color: rgb(148, 205, 255);
+    border-radius: 5px;
+    /* border-bottom: 2px solid rgb(44, 84, 246); */
+}
+
