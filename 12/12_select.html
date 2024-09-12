@@ -9,7 +9,7 @@
   <title>JS기초</title>
 
   <!-- 외부 스크립트 -->
-  <script src='./12.js'></script>
+  <script src='./12_select.js'></script>
 </head>
 
 <body>
@@ -19,15 +19,16 @@
       <a href='../index.html'><img src='https://cdn-icons-png.flaticon.com/512/2142/2142687.png' id='home'></a>
     </div>
   </header>
+    <form>
     <main class="boxofficeMain">
       <section class='sec'>
         <div class="divDt">
           <input type="date" id ='dt' name="dt">
-          <fieldset>
-          <input type="radio" id ='r1' name="mycg" value="K"><label for="r1">한국영화</label>
-          <input type="radio" id ='r2' name="mycg" value="F"><label for="r2">외국영화</label>
-          <input type="radio" id ='r3' name="mycg" value="default"><label for="r3">전체</label>
-          </fieldset>
+          <select name="country" id="ct">
+            <option value="K">한국영화</option>
+            <option value="F">외국영화</option>
+            <option value="default" selected>전체</option>
+          </select>
         </div>
       </section>
       <section class="sec">
@@ -36,9 +37,7 @@
         </ul>
       </section>
     </main>
-    <footer id="mvfooter">
-      <div id="mvinfo"></div>
-    </footer>
+  </form>
 </body>
 
 </html>

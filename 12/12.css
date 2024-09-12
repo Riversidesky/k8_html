@@ -1,4 +1,4 @@
-.boxofficeMain {
+.boxofficeMain, #mvfooter {
     display: flex;
 
     flex-direction: column;
@@ -6,6 +6,19 @@
     align-items: center;
     background-color: aliceblue;
 }
+
+.boxofficeMain {
+    height: 100%;
+}
+
+#mvfooter {
+    height: 100px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(113, 23, 23);
+    color: white;
+}
+
 
 .sec {
     width: 80%;
@@ -23,7 +36,23 @@
     
 }
 
-input[type=date] {
+fieldset {
+
+ font-size: small;
+ display: flex;
+ justify-content: center;   
+ align-items: center;
+ height: 20px;
+ margin-top: 33px;
+ border: none;
+}
+
+label {
+    margin: 5px;
+    
+}
+
+input[type=date], select {
     width: 40%;
     height: 30px;
     margin: 30px;
@@ -57,3 +86,27 @@ li:hover {
     /* border-bottom: 2px solid rgb(44, 84, 246); */
 }
 
+.movieNm {
+    width: 60%;
+}
+
+.openDt {
+    width: 30%;
+    
+}
+
+.rankInten {
+    width: 10%;
+    margin-left: 20px;
+    
+    display: flex;
+    justify-content: right;
+}
+
+.spRed { 
+    color: red;
+}
+
+.spBlue {
+    color: blue;
+}
