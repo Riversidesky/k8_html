@@ -53,7 +53,7 @@ const getDetail = (movieCd) =>{
 //open api 데이터 가져오기
 const getData = (setDt, ul, cg) => {
     console.log(cg)
-    let url = `	http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`
+    let url = `	https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`
     url = `${url}key=${testAPI}&targetDt=${setDt}`
 
     if(cg != 'default') {
